@@ -1,0 +1,11 @@
+<template name="items">
+    <button class="btn btn-primary" id="btnAddItem">Add Items!</button>
+    {{#each showItems}}
+        <p>{{sentence}} : {{creationDate}}</p>
+    {{/each}}
+    <button class="btn btn-primary" id="add">Click Me!</button>
+    <br/>
+    {{#each showClicks}}
+        <p>{{num}} : {{creationDate}}</p>
+    {{/each}}
+</template>
